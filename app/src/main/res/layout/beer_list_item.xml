@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/card_view_corner_radius"
+    app:cardElevation="@dimen/card_view_elevation"
+    app:cardMaxElevation="@dimen/card_view_elevation"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp"
+            app:srcCompat="@drawable/ic_beer_glass"/>
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="52dp"
+            android:layout_marginEnd="52dp">
+            <TextView
+                android:id="@+id/beer_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                tools:text="Rise of Phonelex rise of phonelex rise of phonelex"/>
+
+            <TextView
+                android:id="@+id/beer_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/text_view_border_box"
+                android:padding="2dp"
+                android:textSize="12sp"
+                tools:text="American IPA american ipa ameraican ipa" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/beer_alcohol_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_layout"
+            android:layout_marginStart="58dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            android:background="@drawable/text_view_border_box"
+            android:padding="2dp"
+            tools:text="Alocohal content: 0.05"/>
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_add_to_cart"/>
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+

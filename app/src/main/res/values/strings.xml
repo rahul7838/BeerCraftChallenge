@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BeerCraft</string>
+
+    <!--Home activity-->
+    <string name="search_bar_hint">Search beer</string>
+
+    <string name="search_box_empty_text">Please write some text</string>
+
+    <string name="shopping_cart">Shopping cart</string>
+    <string name="search_beer">Search beer</string>
+    <string name="no_internet_view">No Internet. Please connect and Try again</string>
+    <string name="sort_asc">Sort ascending by alcohol content</string>
+    <string name="sort_desc">Sort descending by alcohol content</string>
+    <string name="filter_by_ipa">Filter by IPA</string>
+    <string name="filter_by_lager">Filter by Lager</string>
+    <string name="all_beer">All Beer</string>
+    <string name="work_is_under_progress">Work is under Progress</string>
+</resources>

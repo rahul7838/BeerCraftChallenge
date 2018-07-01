@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="in.smslite.activity.MainActivity">
+
+    <item
+        android:id="@+id/all_beer"
+        android:title="@string/all_beer"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/menu_sort_asc"
+        android:title="@string/sort_asc"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/menu_sort_desc"
+        android:title="@string/sort_desc"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/menu_filter_by_lager"
+        android:title="@string/filter_by_lager"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/menu_filter_by_IPA"
+        android:title="@string/filter_by_ipa"
+        app:showAsAction="collapseActionView"/>
+
+
+</menu>
